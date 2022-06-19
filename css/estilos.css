@@ -1,9 +1,44 @@
-body{color:#333;
-    text-align:center;
-    font-family:arial;
-    font-size:16px;
-    margin:0;
-    padding:0}#container{width:70%;
-        padding:1em;text-align:left;
-        border:1px solid rgb(15, 15, 15);
-    margin:0 auto}#container h1{font-size:20px}
+body
+{
+    color: #333;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecera
+{
+    background: rgb(235, 26, 217);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.8em;
+}
+
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#container
+{
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 3px solid rgb(14, 13, 13);
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 20px;
+}
+#post
+{
+    padding: 1em;
+}
